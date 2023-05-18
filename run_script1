@@ -1,0 +1,6 @@
+#! /bin/bash
+
+make fuzz-hardhat
+pkill -f ganache
+fuzz -c .fuzz_hardhat.yml disarm
+yes "n" | make fuzz-hardhat
