@@ -1,5 +1,6 @@
 #! /bin/bash
 
+cd ..
 apt-get update
 git clone https://github.com/ConsenSys/scribble-exercise-1.git
 cd scribble-exercise-1/
